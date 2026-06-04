@@ -19,6 +19,6 @@ public class App {
 
         promedio = (nota1 + nota2 + nota3) / 3;
 
-        System.out.println("El promedio es: " + promedio);
+        System.out.println("El promedio del estudiante es: " + promedio);
     }
 }
