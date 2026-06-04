@@ -8,6 +8,7 @@ public class App {
         Scanner leer = new Scanner(System.in);
 
         System.out.println("Algoritmo para calcular el promedio de 3 estudiantes con ciclo for");
+        System.out.println("validar las notas en un rango de 0 a 10 con ciclo while");
 
         for (int i = 1; i <= 3; i++) {
 
