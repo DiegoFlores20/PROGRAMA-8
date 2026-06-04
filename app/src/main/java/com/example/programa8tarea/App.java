@@ -4,34 +4,35 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) {
-        System.out.println("Algoritmo para calcular el promedio de 3 estudiantes con ciclo for y while");
-        System.out.println("realizar el sr lozano: ");
+
         Scanner leer = new Scanner(System.in);
 
-        double nota1, nota2, nota3, promedio;
+        System.out.println("Algoritmo para calcular el promedio de 3 estudiantes con ciclo for");
 
-        System.out.print("Ingrese la primera nota : ");
-        nota1 = leer.nextDouble();
+        for (int i = 1; i <= 3; i++) {
 
-        System.out.print("Ingrese la segunda nota : ");
-        nota2 = leer.nextDouble();
+            System.out.println("\nEstudiante " + i);
 
-        System.out.print("Ingrese la tercera nota : ");
-        nota3 = leer.nextDouble();
+            System.out.print("Ingrese la primera nota: ");
+            double nota1 = leer.nextDouble();
 
-        promedio = (nota1 + nota2 + nota3) / 3;
+            System.out.print("Ingrese la segunda nota: ");
+            double nota2 = leer.nextDouble();
 
-        System.out.println("Promedio:" + promedio);
-        if (promedio >=7) {
-            System.out.println("Estado: Aprobado del estudiante");
-        } else {
-            System.out.println("Estado: Reprobado del estudiante");
+            System.out.print("Ingrese la tercera nota: ");
+            double nota3 = leer.nextDouble();
+
+            double promedio = (nota1 + nota2 + nota3) / 3;
+
+            System.out.println("Promedio: " + promedio);
+
+            if (promedio >= 7) {
+                System.out.println("El estudiante: Aprobado");
+            } else {
+                System.out.println("El estudiante: Reprobado");
+            }
         }
-        System.out.println("Presione ENTER para salir");
-        try{
-            System.in.read();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+
+        leer.close();
     }
 }
