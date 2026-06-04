@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) {
+        System.out.println("Algoritmo para calcular el promedio de 3 estudiantes con ciclo for y while");
+        System.out.println("realizar el sr lozano: ");
         Scanner leer = new Scanner(System.in);
 
         double nota1, nota2, nota3, promedio;
