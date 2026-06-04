@@ -8,13 +8,13 @@ public class App {
 
         double nota1, nota2, nota3, promedio;
 
-        System.out.print("Ingrese la primera nota: ");
+        System.out.print("Ingrese la primera nota : ");
         nota1 = leer.nextDouble();
 
-        System.out.print("Ingrese la segunda nota: ");
+        System.out.print("Ingrese la segunda nota : ");
         nota2 = leer.nextDouble();
 
-        System.out.print("Ingrese la tercera nota: ");
+        System.out.print("Ingrese la tercera nota : ");
         nota3 = leer.nextDouble();
 
         promedio = (nota1 + nota2 + nota3) / 3;
