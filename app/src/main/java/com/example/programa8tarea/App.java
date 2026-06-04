@@ -25,7 +25,7 @@ public class App {
         } else {
             System.out.println("Estado: Reprobado");
         }
-        System.out.println("Presione ENTER para salir...");
+        System.out.println("Presione ENTER para salir");
         try{
             System.in.read();
         } catch (Exception e) {
