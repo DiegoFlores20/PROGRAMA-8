@@ -19,6 +19,17 @@ public class App {
 
         promedio = (nota1 + nota2 + nota3) / 3;
 
-        System.out.println("El promedio del estudiante es: " + promedio);
+        System.out.println("Promedio:" + promedio);
+        if (promedio >=7) {
+            System.out.println("Estado: Aprobado");
+        } else {
+            System.out.println("Estado: Reprobado");
+        }
+        System.out.println("Presione ENTER para salir...");
+        try{
+            System.in.read();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
