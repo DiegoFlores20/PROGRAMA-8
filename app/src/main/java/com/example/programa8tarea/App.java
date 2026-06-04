@@ -21,9 +21,9 @@ public class App {
 
         System.out.println("Promedio:" + promedio);
         if (promedio >=7) {
-            System.out.println("Estado: Aprobado");
+            System.out.println("Estado: Aprobado del estudiante");
         } else {
-            System.out.println("Estado: Reprobado");
+            System.out.println("Estado: Reprobado del estudiante");
         }
         System.out.println("Presione ENTER para salir");
         try{
